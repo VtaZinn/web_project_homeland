@@ -229,24 +229,25 @@ h3 {
   justify-content: center;
   align-items: center;
   position: relative;
-  z-index: 2;
+ 
 }
 
-.footer::before {    
-  content: "";  
-  background-image: url(../images/fundo.jpg);
-  background-size: cover;
-  position: absolute;
-  top: 0px;
-  right: 0px;
-  bottom: 0px;
-  left: 0px;
-}
-
-.footer:hover::before{
+.footer:hover .footer__backgroundImage{
   opacity: 0.5;
 }
 
+.footer__backgroundImage{
+  background-image: url(../images/fundo.jpg);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  width: 1184px;
+  height: 740px;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+}
 
 .footer__content{
   display: flex;
