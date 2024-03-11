@@ -235,7 +235,7 @@ h3 {
 
 .footer::before {    
   content: "";  
-  background-image: url(../images/__background.png);
+  background-image: url(../images/fundo.jpg);
   background-size: cover;
   position: absolute;
   top: 0px;
