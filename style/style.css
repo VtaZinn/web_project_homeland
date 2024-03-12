@@ -37,26 +37,26 @@ h3 {
   margin-top: 34px;
 }
 
-.header_imgGroup13{
+.header__imgGroup13{
   width: 32px;
   height: 32px;
   padding-bottom: 22px;
 }
 
-.section_header{
+.section__header{
   margin-top: 90px;
   width: 984px;
   margin: auto;
 }
 
-.section_header_text{
+.section__header_text{
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
 }
 
-.header_title-text{
+.header__title-text{
   width: 793px;
   height: 200px;
   text-align: center;
@@ -67,7 +67,7 @@ h3 {
   margin-top: 90px;
 }
 
-.header_text{
+.header__text{
   width: 720px;
   height: 72px;
   font-size: 30px;
@@ -76,26 +76,26 @@ h3 {
   margin-top: 32px;
 }
 
-.section_img_header{
+.section__img_header{
   width: 984px;
   height: 615px;
   margin-top: 64px;
 }
 
-.section_intro{
+.section__intro{
   width: 830px;
   height: 482px;
   margin-top: 92px;
 }
 
-.section_intro__title h1{
+.section__intro__title h1{
   width: 830px;
   font-size: 54px;
   line-height: 58px;
   font-family: "Inter Black";
 }
 
-.section_intro__text h3{
+.section__intro_text h3{
   width: 738px;
   height: 68px;
   font-size: 24px;
@@ -103,7 +103,7 @@ h3 {
   font-weight: 400;
 }
 
-.section_intro__name h3{
+.section__intro_name h3{
   width: 732px;
   display: flex;
   justify-content: flex-end;
@@ -116,7 +116,7 @@ h3 {
   max-width: 984px;
 }
 
-.section_intro__content-text p{
+.section__intro_content-text p{
   width: 725px;
   font-size: 16px;
   line-height: 26px;
@@ -124,20 +124,20 @@ h3 {
   font-weight: 400;
 }
 
-.photo_grid{
+.photo__grid{
   width: 1184px;
   height: 442px;
   margin: auto;
   margin-top: 118px;
 }
 
-.photos_grid__images{
+.photos__grid_images{
   display: flex;
   gap: 16px;
   margin-bottom: 16px;
 }
 
-.photo_grid__style{
+.photo__grid_style{
   width: 284px;
   height: 213px;
   gap: 16px;
@@ -304,48 +304,48 @@ h3 {
 
 
 @media screen and (max-device-width: 768px) { 
-  .section_header_text {
+  .section__header_text {
     width: 720px;
   }
 
-  .section_img_header{
+  .section__img_header{
     width: 768px;
   }
 
-  .section_intro{
+  .section__intro{
     width: 720px;
   }
 
-  .section_intro__title h1 {
+  .section__intro__title h1 {
     width: 707px;
     font-size: 54px;
     line-height: 58px;
   }
 
-  .section_intro__text h3{
+  .section__intro_text h3{
     width: 720px;
     height: 102px;
   }
 
-  .section_intro__name h3{
+  .section__intro_name h3{
     width: 720px;
     height: 34px;
   }
 
-  .section_intro__content-text p{
+  .section__intro_content-text p{
     width: 720px;
     height: 182px;
     font-size: 16px;
   }
 
-  .photo_grid{
+  .photo__grid{
     display: flex;
     width: 720px;
     height: auto;
     justify-content: center;
   }
 
-  .photos_grid__images{
+  .photos__grid_images{
     flex-direction: column;
     margin-right: 16px;
   }
@@ -427,55 +427,55 @@ h3 {
     width: 320px;
   }
 
-  .section_header_text{
+  .section__header_text{
     width: 288px;
     
   }
 
-  .header_text{
+  .header__text{
     width: 288px;
     font-size: 15px;
     line-height: 20px;
   }
 
-  .header_title-text {
+  .header__title-text {
     width: 288px;
     height: auto;
     font-size: 40px;
     line-height: 50px;
   }
 
-  .section_img_header{
+  .section__img_header{
     width: 320px;
     height: 200px;
   }
 
-  .section_intro{
+  .section__intro{
     width: 320px;
     height: auto;
   }
 
-  .section_intro__title h1{
+  .section__intro__title h1{
     width: 288px;
     font-size: 32px;
     line-height: 33px;
   }
 
-  .section_intro__text h3{
+  .section__intro_text h3{
     width: 288px;
     height: auto;
   }
 
-  .section_intro__name h3{
+  .section__intro_name h3{
     width: 288px;
   }
 
-  .section_intro__content-text p{
+  .section__intro_content-text p{
     width: 288px;
     height: auto;
   }
 
-  .photo_grid {
+  .photo__grid {
     width: 320px;
     flex-direction: column;
     align-items: center;
