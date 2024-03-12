@@ -131,13 +131,13 @@ h3 {
   margin-top: 118px;
 }
 
-.photos-grid__images{
+.photo-grid__images{
   display: flex;
   gap: 16px;
   margin-bottom: 16px;
 }
 
-.photo_grid__style{
+.photo-grid__style{
   width: 284px;
   height: 213px;
   gap: 16px;
@@ -345,7 +345,7 @@ h3 {
     justify-content: center;
   }
 
-  .photos-grid__images{
+  .photo-grid__images{
     flex-direction: column;
     margin-right: 16px;
   }
