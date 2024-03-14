@@ -323,7 +323,7 @@ h3 {
   cursor: pointer;
 }
 
-@media screen and (max-width : 768px)  { 
+@media only screen and (max-width: 768px){ 
   .section-header {
     width: 768px;
   }
@@ -444,7 +444,7 @@ h3 {
 
 }
 
-@media screen and (max-width: 320px) { 
+@media only screen and (max-width: 320px) { 
   .header {
     width: 189px;
     margin: auto;
