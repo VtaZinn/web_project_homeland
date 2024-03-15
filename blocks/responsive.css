@@ -1,0 +1,287 @@
+@media only screen and (max-width: 768px){ 
+  .section-header {
+    width: 768px;
+  }
+  
+  .section-header__texts {
+    width: 720px;
+  }
+
+  .section-header__img-header{
+    width: 768px;
+  }
+
+  .section-intro{
+    width: 720px;
+  }
+
+  .section-intro__title h1 {
+    width: 707px;
+    font-size: 54px;
+    line-height: 58px;
+  }
+
+  .section-intro__text h3{
+    width: 720px;
+    height: 102px;
+  }
+
+  .section-intro__name h3{
+    width: 720px;
+    height: 34px;
+  }
+
+  .section-intro__content-text p{
+    width: 720px;
+    height: 182px;
+    font-size: 16px;
+  }
+
+  .photo-grid{
+    display: flex;
+    width: 720px;
+    height: auto;
+    justify-content: center;
+  }
+
+  .photo-grid__images{
+    flex-direction: column;
+    margin-right: 16px;
+  }
+
+  .places{
+    width: 733px;
+  }
+
+  .places__title{
+    width: 340px;
+    font-size: 28px;
+  }
+
+  .places__header-content-text{
+    width: 365px;
+  }
+
+  .places__artist-header{
+    font-size: 12px;
+  }
+
+  .places__text-header{
+    width: 365px;
+    font-size: 18px;
+  }
+
+  .places__content-img{
+    width: 340px;
+    height: 340px;
+  }
+
+  .places__content-text{
+    width: 352px;
+    font-size: 16px;
+  }
+
+  .places__content-text2{
+    width: 352px;
+    font-size: 16px;
+  }
+
+  .wrapper {
+    width: 733px;
+  }
+
+  .places__content-texts{
+    width: 352px;
+  }
+
+  .places__img-sp{
+    width: 100%;
+    height: 340px;
+  }
+
+  .footer{
+    width: 768px;
+    top: 92px;
+    position: relative;
+  }
+
+  .footer__backgroundImage{
+    width: 768px;
+    height: 746px;
+    background-size: 97%;
+  }
+
+  .copyright{
+    top: 88px;
+    position: relative;
+  }
+
+
+}
+
+@media only screen and (max-width: 320px) { 
+  .header {
+    width: 189px;
+    margin: auto;
+  }
+
+  .header p {
+    font-size: 15px;
+  }
+
+  .wrapper{
+    width: 320px;
+  }
+
+  .section-header__texts{
+    width: 288px;
+    font-size: 15px;
+    line-height: 20px;
+  }
+
+  .section-header {
+    width: 320px;
+  }
+
+  .section-header__text {
+    width: 288px;
+    padding-bottom: 40px;
+  }
+
+  .section-header__title-text {
+    width: 288px;
+    height: auto;
+    font-size: 40px;
+    line-height: 50px;
+  }
+
+  .section-header__img-header{
+    width: 320px;
+    height: 200px;
+  }
+
+  .section-intro{
+    width: 320px;
+    height: auto;
+  }
+
+  .section-intro__title h1{
+    width: 288px;
+    font-size: 32px;
+    line-height: 33px;
+  }
+
+  .section-intro__text h3{
+    width: 288px;
+    height: auto;
+  }
+
+  .section-intro__name h3{
+    width: 288px;
+  }
+
+  .section-intro__content-text p{
+    width: 288px;
+    height: auto;
+  }
+
+  .photo-grid {
+    width: 320px;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .places {
+    flex-direction: column;
+    width: 320px;
+  }
+
+  .places__content {
+    flex-direction: column;
+    width: 320px;
+  }
+
+  .places__header{
+    width: 320px;
+    flex-direction: column;
+  }
+
+  .places__header-content-text{
+    width: 320px;
+  }
+
+  .places__title{
+    width: 320px;
+    font-size: 32px;
+  }
+
+  .places__artist-header{
+    margin-top: 30px;
+    font-size: 15px;
+  }
+
+  .places__content-img{
+    width: 320px;
+  }
+
+  .places__text-header{
+    font-size: 15px;
+  }
+
+  .places__content-text{
+    width: 320px;
+    margin: 0px;
+    padding-top: 30px;
+  }
+
+  .places__content-text2{
+    width: 320px;
+    margin: 0px;
+    padding-top: 26px;
+  }
+
+  .places__img{
+    width: 310px;
+  }
+
+  .places__img-sp{
+    width: 310px;
+  }
+
+  .places__content-texts{
+    width: 320px;
+  }
+
+  .places__button{
+    display: none;
+  }
+
+  .places__button-mobile {
+    display: block;
+    width: 320px;
+    text-align: center;
+    margin-top: 30px;
+  }
+
+  .footer{
+    width: 320px;
+    height: 254px;
+    background-position: center;
+  }
+
+  .footer__title{
+    font-size: 30px;
+  }
+
+  .footer__text{
+    margin-top: -10px;
+    padding-bottom: 10px;
+  }
+
+  .footer__backgroundImage{
+    width: 320px;
+    height: 300px;
+    background-size: 95%;
+    margin-bottom: -120px;
+  }
+}

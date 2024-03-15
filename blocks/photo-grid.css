@@ -1,0 +1,19 @@
+.photo-grid{
+  width: 1184px;
+  height: 442px;
+  margin: auto;
+  margin-top: 118px;
+}
+
+.photo-grid__images{
+  display: flex;
+  gap: 16px;
+  margin-bottom: 16px;
+}
+
+.photo-grid__style{
+  width: 284px;
+  height: 213px;
+  gap: 16px;
+}
+

@@ -1,0 +1,36 @@
+.section-intro{
+  width: 830px;
+  height: 482px;
+  margin-top: 92px;
+}
+
+.section-intro__title h1{
+  width: 830px;
+  font-size: 54px;
+  line-height: 58px;
+  font-family: "Inter Black";
+}
+
+.section-intro__text h3{
+  width: 738px;
+  height: 68px;
+  font-size: 24px;
+  margin-top: 40px;
+  font-weight: 400;
+}
+
+.section-intro__name h3{
+  width: 732px;
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 10px;
+  font-weight: 400;
+}
+
+.section-intro__content-text p{
+  width: 725px;
+  font-size: 16px;
+  line-height: 26px;
+  margin-top: 32px;
+  font-weight: 400;
+}

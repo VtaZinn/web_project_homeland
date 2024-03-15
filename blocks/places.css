@@ -1,0 +1,85 @@
+.places{
+  width: 987px;
+  margin-top: 92px;
+}
+
+.places__header{
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+
+.places__title{
+  width: 460px;
+  font-size: 72px;
+  font-family: "Inter Black";
+  font-weight: 900;
+}
+
+.places__header-content-text{
+  top: -20px;
+  position: relative;
+}
+
+.places__artist-header{
+  color: #AAAAAA;
+  font-size: 12px;
+}
+
+.places__text-header{
+  font-size: 18px;
+}
+
+
+.places__content{
+  margin-top: 48px;
+  display: flex;
+}
+
+.places__content-img{
+  width: 460px;
+  height: 460px;
+}
+
+.places__img {
+  width: 100%;
+}
+
+.places__button{
+  margin-top: 48px;
+}
+
+.places__button-NFT{
+  padding: 13px 20px;
+  background-color: #0278FE;
+  color: #FFFFFF;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 22px;
+  border: none;
+  border-radius: 4px;
+}
+
+.places__content-texts{
+  width: 484px;
+}
+
+
+.places__content-text{
+  font-size: 18px;
+  margin-left: 40px;
+  line-height: 29px;
+}
+
+.places__content-text2{
+  font-size: 18px;
+  margin-left: 40px;
+  line-height: 29px;
+  margin-top: 25px;
+}
+
+.places__img-sp{
+  width: 460px;
+  height: 460px;
+  object-fit: cover;
+}
