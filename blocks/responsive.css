@@ -1,18 +1,22 @@
 @media only screen and (max-width: 768px){ 
   .section-header {
     width: 768px;
+    max-width: 100%;
   }
   
   .section-header__texts {
     width: 720px;
+    max-width: 100%;
   }
 
   .section-header__img-header{
     width: 768px;
+    max-width: 100%;
   }
 
   .section-intro{
     width: 720px;
+    height: 100vh;
   }
 
   .section-intro__title h1 {
@@ -40,8 +44,13 @@
   .photo-grid{
     display: flex;
     width: 720px;
+    max-width: 100%;
     height: auto;
     justify-content: center;
+  }
+
+  .photo-grid__style{
+    max-width: 720px;
   }
 
   .photo-grid__images{
@@ -51,6 +60,7 @@
 
   .places{
     width: 733px;
+    max-width: 100%;
   }
 
   .places__title{
@@ -67,31 +77,37 @@
   }
 
   .places__text-header{
-    width: 365px;
     font-size: 18px;
+    word-break: break-word;
+    max-width: 70%;
   }
 
   .places__content-img{
     width: 340px;
+    max-width: 50%;
     height: 340px;
   }
 
   .places__content-text{
     width: 352px;
+    max-width: 80%;
     font-size: 16px;
   }
 
   .places__content-text2{
     width: 352px;
+    max-width: 80%;
     font-size: 16px;
   }
 
   .wrapper {
     width: 733px;
+    max-width: 100%;
   }
 
   .places__content-texts{
     width: 352px;
+    max-width: 50%;
   }
 
   .places__img-sp{
@@ -116,6 +132,7 @@
     position: relative;
   }
 
+ 
 
 }
 
@@ -199,6 +216,7 @@
   .places__content {
     flex-direction: column;
     width: 320px;
+    max-width: 100%;
   }
 
   .places__header{
@@ -250,6 +268,7 @@
 
   .places__content-texts{
     width: 320px;
+    max-width: 100%;
   }
 
   .places__button{
@@ -259,6 +278,7 @@
   .places__button-mobile {
     display: block;
     width: 320px;
+    max-width: 100%;
     text-align: center;
     margin-top: 30px;
   }

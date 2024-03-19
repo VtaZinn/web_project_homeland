@@ -11,6 +11,7 @@
 
 .footer{
   width: 1184px;
+  max-width: 100%;
   height: 740px;
   margin: auto;
   top: 92px;
@@ -24,6 +25,7 @@
 
 .footer:hover .footer__backgroundImage{
   opacity: 0.5;
+  max-width: 100%;
 }
 
 .footer__backgroundImage{
