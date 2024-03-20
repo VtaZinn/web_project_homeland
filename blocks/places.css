@@ -73,6 +73,7 @@
   font-size: 18px;
   margin-left: 40px;
   line-height: 29px;
+  text-align: center;
 }
 
 .places__content-text2{
@@ -80,6 +81,7 @@
   margin-left: 40px;
   line-height: 29px;
   margin-top: 25px;
+  text-align: center;
 }
 
 .places__img-sp{

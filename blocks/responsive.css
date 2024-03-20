@@ -9,6 +9,11 @@
     max-width: 100%;
   }
 
+  .section-header__text {
+    width: 720px;
+    padding-bottom: 40px;
+  }
+
   .section-header__img-header{
     width: 768px;
     max-width: 100%;
@@ -34,6 +39,10 @@
     width: 720px;
     height: 34px;
   }
+
+  .section-intro__content-text{
+    height: auto;
+  }  
 
   .section-intro__content-text p{
     width: 720px;
@@ -132,6 +141,7 @@
     position: relative;
   }
 
+  
  
 
 }
